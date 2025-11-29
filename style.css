@@ -1,0 +1,37 @@
+@font-face{
+    font-family:Caveat;
+    src:url("caveat.ttf");
+}
+
+*{
+    font-family:Caveat;
+}
+
+#header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+        border-bottom: 2px solid darkred;
+        padding-bottom: 10px;
+}
+
+#header-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+#app-name{
+font-size: 20px;
+    font-weight: bold;
+}
+
+#easy{
+ display: flex;
+ justify-content:center;
+  align-items: center;
+}
+
+.products-img{
+width: 356 px;
+
+}

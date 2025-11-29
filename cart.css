@@ -1,0 +1,31 @@
+#cart-products{
+
+
+
+}
+.cart-products{
+
+
+
+}
+.products-img{
+width:250px ;
+height:250px;
+
+
+}
+#sign{
+      width:243px;
+      padding:10px;
+      margin:3px;
+      background:green;
+       color: white;}
+
+       #sign{
+      font-size:12px;}
+
+
+       #confirm{
+      width:220px;
+      padding:10px;
+      margin:3px;}

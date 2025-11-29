@@ -1,0 +1,29 @@
+#products{
+display : flex;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+.products {
+    display : flex;
+    flex-direction: column;
+    border: 2px solid crimson;
+     margin:5px;
+     padding:5px;
+     /*width:200px;*/
+     border-radius:5px;
+     flex:1 1 200px;
+     max-width:200px;
+     background:white;
+     transition:transform 1s;
+}
+
+.products:hover{
+    transform: scale(1.5);
+}
+
+.products-img{
+    width:200px;
+    height:200px;
+    border-radius:5px;
+}
